@@ -1,0 +1,26 @@
+## AUTHOR: Quinn Roth
+## FOR ENG 103 Studio 1
+def print_hi(Name):
+# This function will print the following text and replace {name} with the value of the name variable
+    print(f'Hi, I am {Name}')
+def print_animal(animal):
+# This function will print the following text and replace {animal} with the value of the animal variable
+    print(f'My favorite animals are {animal}')
+def print_goals(my_goals):
+# This function will print the following text and replace {my_goals} with the value of the my_goals variable
+    print(f'My goals for this class are {my_goals}')
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+# YOU WILL EDIT THIS PART FOR STUIDO 1
+## Change your variable values here, be sure to leave the quotation marks
+# PUT YOUR NAME HERE
+    Name = 'Quinn'
+# PUT YOUR FAVORITE ANIMAL HERE
+animal = 'cats and wallabies'
+# PUT YOUR GOALS FOR THE CLASS HERE
+my_goals = 'strengthen my programming skills, meet new people, and learn some python.'
+# Call the functions to print your answers
+## When calling a function, the syntax is function_name(inputs)
+print_hi(Name)
+print_animal(animal)
+print_goals(my_goals)
